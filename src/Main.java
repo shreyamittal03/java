@@ -3,6 +3,7 @@ class programs {
     public static void main(String args[]) {
         demo aa = new demo();
         int ch;
+        System.out.println("Me is here");
         do {
             Scanner sc = new Scanner(System.in);
             System.out.println("1-> sumofdigits \n2-> prodofdigits \n3-> reverse \n4-> palindrome \n5-> factorial \n6-> fibonacci \n7-> prime \n8->armstrong \n9-> power \n10-> tab \n 11-> Exit \n Enter your choice:");
